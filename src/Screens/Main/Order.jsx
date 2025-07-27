@@ -139,7 +139,7 @@ const Order = () => {
 
   return (
     <View style={styles.container}>
-      <Header title="Orders" />
+      {/* <Header title="Orders" /> */}
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <FlatList

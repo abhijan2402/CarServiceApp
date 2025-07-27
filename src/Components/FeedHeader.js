@@ -12,26 +12,27 @@ import {
 
 const Header = ({ title, onBackPress, showBack = false }) => {
     return (
-        <SafeAreaView style={styles.safeHeader}>
-            <StatusBar
-                translucent
-                backgroundColor="transparent"
-                barStyle="dark-content"
-            />
-            <View style={styles.container}>
-                {showBack && (
-                    <TouchableOpacity onPress={onBackPress} style={styles.backButton}>
-                        <Image
-                            style={{ width: 20, height: 20 }}
-                            source={{
-                                uri: 'https://cdn-icons-png.flaticon.com/128/130/130882.png',
-                            }}
-                        />
-                    </TouchableOpacity>
-                )}
-                <Text style={styles.title}>{title}</Text>
-            </View>
-        </SafeAreaView>
+        // <SafeAreaView style={styles.safeHeader}>
+        //     <StatusBar
+        //         translucent
+        //         backgroundColor="transparent"
+        //         barStyle="dark-content"
+        //     />
+        //     <View style={styles.container}>
+        //         {showBack && (
+        //             <TouchableOpacity onPress={onBackPress} style={styles.backButton}>
+        //                 <Image
+        //                     style={{ width: 20, height: 20 }}
+        //                     source={{
+        //                         uri: 'https://cdn-icons-png.flaticon.com/128/130/130882.png',
+        //                     }}
+        //                 />
+        //             </TouchableOpacity>
+        //         )}
+        //         <Text style={styles.title}>{title}</Text>
+        //     </View>
+        // </SafeAreaView>
+        null
     );
 };
 

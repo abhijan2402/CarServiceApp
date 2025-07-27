@@ -40,7 +40,7 @@ const AccountPage = ({ navigation }) => {
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor={COLOR.white} />
-      <Header title="Account" />
+      {/* <Header title="Account" /> */}
       <ScrollView contentContainerStyle={styles.container}>
         {/* Profile Info with Gradient */}
         <View

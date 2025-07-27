@@ -55,7 +55,7 @@ const Bids = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header title={'My Cart'} />
+      {/* <Header title={'My Cart'} /> */}
       <FlatList
         data={cartItems}
         keyExtractor={item => item.id}
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     position: 'absolute',
-    bottom: 0,
+    bottom: 50,
     left: 0,
     right: 0,
     backgroundColor: '#fff',
